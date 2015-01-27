@@ -12,7 +12,8 @@ usuario 'imaginario'. El segundo produce un error, porque no existe. ¿Sabrías 
 ## Forma de entrega
 
 Has de tener un repositorio llamado X-Serv-13.5-Python en tu cuenta en GitHub
-que incluya un fichero en Python llamado 'passwd.py'.
+que incluya el fichero de nombre 'passwd.py' que contenga las
+instrucciones en Python para solucionar el ejercicio.
 
 Se proporciona un script, check.py, para comprobar la entrega correcta
 del ejercicio. El script de comprobación se ha de ejecutar desde terminal

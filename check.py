@@ -5,7 +5,7 @@
 Script de comprobación de entrega de ejercicio
 
 Para ejecutarlo, desde la shell:
- $ python check-p4.py login_github
+ $ python check.py login_github
 
 """
 
@@ -17,7 +17,7 @@ ejercicio = 'X-Serv-13.5-Python'
 
 if len(sys.argv) != 2:
     print
-    sys.exit("Usage : $ python check.py login_github")
+    sys.exit("Usage: $ python check.py login_github")
 
 repo_git = "http://github.com/" + sys.argv[1] + "/" + ejercicio
 
@@ -49,7 +49,7 @@ if len(student_file_list) != len(files):
 for filename in files:
     if filename not in student_file_list:
         error = 1
-        print "\tError: " + filename + " no encontrado. Súbelo al repositorio."
+        print "\tError: " + filename + " no encontrado en el repositorio."
 
 if not error:
     print "Parece que la entrega se ha realizado bien."
